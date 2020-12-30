@@ -13,7 +13,7 @@ public class KoscheiTheDeathless {
     private Needle7 needle;
 
     public String getRulesByDeth() {
-        return "На свете есть океан , " + ocean.toString();
+        return "На свете есть океан , " + ocean.toString() + needle.toString();
     }
 
     @Autowired

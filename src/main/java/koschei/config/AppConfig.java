@@ -1,5 +1,6 @@
 package koschei.config;
 
+import koschei.KoscheiTheDeathless;
 import koschei.models.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -16,6 +17,6 @@ public class AppConfig {
 
     @Bean
     public static Egg6 getEgg(Needle7 needle) {
-        return  new Egg6(needle);
+        return  new Egg6();
     }
 }
